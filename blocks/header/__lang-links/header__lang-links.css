@@ -1,0 +1,19 @@
+.header__lang-links {
+  display: flex;
+  column-gap: 18px;
+  color: white;
+  margin: 46px 48px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-links {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    margin: 30px 16px 0 0;
+  }
+}
