@@ -13,6 +13,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .lead__title {
+    box-sizing: content-box;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__title {
     line-height: 44px;

@@ -22,6 +22,7 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
@@ -39,26 +40,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/cover/__hover/cover__hover.css);
-
-/* Основной код для разрешения 1024px */
-@media screen and (min-width: 2560px) {
-  /* стили для больших мониторов с разрешением 4K */
-}
-@media screen and (min-width: 1440px) {
-  /* стили для больших настольных компьютеров и ноутбуков */
-}
-@media screen and (max-width: 1024px) {
-  /* стили для планшета в альбомной ориентации */
-}
-@media screen and (max-width: 768px) {
-  /* стили для планшета */
-}
-@media screen and (max-width: 425px) {
-  /* стили для широкого смартфона */
-}
-@media screen and (max-width: 375px) {
-  /* стили для среднего смартфона */
-}
-@media screen and (max-width: 320px) {
-  /* стили для малого смартфона */
-} 

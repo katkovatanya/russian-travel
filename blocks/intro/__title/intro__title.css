@@ -15,6 +15,7 @@
   .intro__title {
     max-width: 720px;
     margin: 0;
+    box-sizing: content-box;
   }
 }
 
