@@ -5,24 +5,15 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .intro__title {
-    margin: 0;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
-    margin: 0;
-    box-sizing: content-box;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__title {
-    margin: 0;
-    max-width: 288px;
+    max-width: 250px;
     line-height: 35px;
     font-size: 32px;
   }

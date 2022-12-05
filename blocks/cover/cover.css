@@ -4,15 +4,19 @@
   max-width: 1184px;
   max-height: 740px;
   background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  padding-top: 62.5%;
-  margin: 92px auto 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* высота картинки в процентном соотношении к page */
+  padding-top: 57.8%;
+  margin: 92px 3.75% 0px;
+  box-sizing: content-box;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 100%;
-    max-height: 640px;
+    max-width: 1024px;
+    margin: 92px auto 0px;
+    padding-top: 62.5%;
   }
 }
 

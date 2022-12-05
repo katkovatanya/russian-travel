@@ -2,14 +2,14 @@
   display: grid;
   grid-template-columns: fit-content(460px) minmax(456px,484px);
   grid-template-rows: max-content fit-content(460px);
-  gap: 40px 48px;
+  gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: fit-content(440px) fit-content(456px);
     grid-template-rows: repeat(2, max-content);
-    gap: 32px 48px;
+    gap: 48px 3.1%;
   }
 }
 
@@ -17,7 +17,7 @@
   .place {
     grid-template-columns: fit-content(340px) fit-content(352px);
     grid-template-rows: repeat(2, max-content);
-    gap: 28px 48px;
+    gap: 48px 3.6%;
   }
 }
 
