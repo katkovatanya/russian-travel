@@ -2,12 +2,6 @@
   display: flex;
   position: relative;
   max-width: 1184px;
-  max-height: 740px;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  /* высота картинки в процентном соотношении к page */
-  padding-top: 57.8%;
   margin: 92px 3.75% 0px;
   box-sizing: content-box;
 }
@@ -23,7 +17,6 @@
 @media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
-    max-height: 480px;
     margin: 90px 0 0;
   }
 }
@@ -31,7 +24,6 @@
 @media screen and (max-width: 320px) {
   .cover {
     max-width: 320px;
-    max-height: 200px;
     margin: 66px 0 0;
   }
 }

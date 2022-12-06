@@ -26,6 +26,12 @@
   }
 }
 
+@media screen and (max-width: 410px) {
+  .place__paragraph {
+    font-size: 3.9vw;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__paragraph {
     max-width: 288px;

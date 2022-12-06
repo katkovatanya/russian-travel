@@ -6,3 +6,16 @@
   font-weight: 400;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .place__link {
+    line-height: 122%;
+    font-size: 2.34vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    font-size: 18px;
+  }
+} 
