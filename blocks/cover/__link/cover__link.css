@@ -1,9 +1,10 @@
 .cover__link {
+  position: relative;
   width: 100%;
   color: #fff;
   text-decoration: none;
   margin: 0;
-  padding: 0;
+  padding: 62.5% 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,5 +13,4 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 57.8vw;
 }
