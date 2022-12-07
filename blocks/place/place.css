@@ -1,6 +1,6 @@
-.place{
+.place {
   display: grid;
-  grid-template-columns: fit-content(460px) minmax(456px,484px);
+  grid-template-columns: fit-content(460px) minmax(456px, 484px);
   grid-template-rows: max-content fit-content(460px);
   gap: 48px 40px;
 }
@@ -8,6 +8,14 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: fit-content(440px) fit-content(456px);
+    grid-template-rows: repeat(2, max-content);
+    gap: 48px 3.1%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .place {
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, max-content);
     gap: 48px 3.1%;
   }
@@ -21,18 +29,18 @@
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 760px) {
   .place {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, max-content);
-    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, max-content);
+    gap: 48px 3.6%;
   }
-} 
+}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, max-content);
     gap: 32px;
   }
-} 
+}
