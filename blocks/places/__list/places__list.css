@@ -18,7 +18,7 @@
 @media screen and (max-width: 768px) {
   .places__list {
     max-width: 720px;
-    margin: 88px 2.1% 0;
+    margin: 88px 3.12% 0;
     gap: 73px;
   }
 }
