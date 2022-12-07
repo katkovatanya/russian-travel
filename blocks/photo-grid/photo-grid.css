@@ -13,7 +13,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, min-content);
     gap: 14px;
-    margin: 92px 4.7% 0;
+    margin: 92px 3.8% 0;
   }
 }
 
@@ -22,7 +22,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, max-content);
     gap: 16px;
-    margin: 88px 3.1% 0;
+    margin: 88px 2.1% 0;
   }
 }
 

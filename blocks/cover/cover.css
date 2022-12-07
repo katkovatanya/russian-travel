@@ -8,7 +8,8 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
+    /* математика побеждает perfect pixel */
+    width: 100%;
     margin: 92px auto 0px;
   }
 }
