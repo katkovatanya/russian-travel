@@ -21,15 +21,7 @@
   }
 }
 
-@media screen and (max-width: 410px) {
-  .place {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, max-content);
-    gap: 32px;
-  }
-} 
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, max-content);
