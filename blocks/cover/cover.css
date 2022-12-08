@@ -3,7 +3,6 @@
   position: relative;
   max-width: 1184px;
   margin: 92px 3.75% 0px;
-  box-sizing: content-box;
 }
 
 @media screen and (max-width: 1024px) {
